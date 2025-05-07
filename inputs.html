@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="POST" enctype="multipart/form-data\">
+      <label for="username">username</label>
+      <input type="text" id="username" required /><br />
+
+      <label for="password">password</label>
+      <input type="password" id="password" minlength="3" /><br />
+
+      <label for="email">email</label>
+      <input type="email" id="email" /><br />
+
+      <label for="phone">phone</label>
+      <input type="tel" id="phone" /><br />
+
+      <label for="date">date</label>
+      <input type="date" id="date" /><br />
+
+      <label for="Quntity">Quntity</label>
+      <input type="number" id="Quntity" value="2" min="0" max="10" /><br />
+
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="sex" />
+      <label for="female">female</label>
+      <input type="radio" id="female" name="sex" /><br />
+
+      <label for="level">level</label>
+      <select name="level" id="level">
+        <option value="JR">JR</option>
+        <option value="SR">SR</option>
+        <option value="Lead">Lead</option>
+      </select>
+      <br />
+
+      <label for="upload">upload</label>
+      <input type="file" name="upload" id="upload" accept="image/jpeg" />
+      <br />
+      <label for="save">save</label>
+      <input type="checkbox" name="save" id="save" /><br />
+
+      <label for="comment">Comment</label>
+      <textarea name="" id="" cols="30" rows="3"></textarea><br />
+
+      <input type="submit" /><br />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
