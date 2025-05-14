@@ -1,14 +1,19 @@
-div{
-    background-color: aqua;
-    height: 250px;
-    width: 250px;
-    display: inline-block;
+.container1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 71, 57);
+    position: static;
+    top: 100px;
+    left: 100px;
 }
-span{
-    background-color: brown;
-    height: 250px;
-    width: 250px;
-    display: inline-block;
+.container2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(207, 221, 57);
+    position: absolute;
+    left:25%;
+    top: 25%;
+   
 }
 
 
